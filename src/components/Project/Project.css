@@ -1,4 +1,5 @@
 .project-container {
+  background-color: white;
   display: flex;
   flex-direction: row;
   height: 400px;
