@@ -14,11 +14,11 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .glowing-btn {
-  /* position: relative; */
+  position: relative;
   color: var(--glow-color);
   cursor: pointer;
   padding: 0.35em 1em;
