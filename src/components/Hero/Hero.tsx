@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hero.css";
 import { User } from "../../interfaces/User";
 
 type HeroProps = {
@@ -14,6 +15,13 @@ export const Hero = ({ user }: HeroProps) => {
         </h3>
         <h4>{user.title}</h4>
         <p>{user.description}</p>
+        <div className="button-container">
+          <button className="glowing-btn">
+            <span className="glowing-txt">
+              View<span className="faulty-letter"> My</span> Resume
+            </span>
+          </button>
+        </div>
       </div>
     </>
   );
