@@ -27,8 +27,14 @@ export const Project = ({ project }: ProjectProps) => {
             ))}
           </div>
           <div className="buttons-wrapper">
-            <button>TEST</button>
-            <button>Test</button>
+            <button>
+              <span>Site Link</span>
+              <i></i>
+            </button>
+            <button>
+              <span>GitHub Link</span>
+              <i></i>
+            </button>
           </div>
         </div>
       </div>
