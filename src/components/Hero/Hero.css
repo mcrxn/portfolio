@@ -4,19 +4,6 @@
   --glow-color: hsl(186 100% 69%);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  /* overflow: hidden; */
-}
-
 .glowing-btn {
   position: relative;
   color: var(--glow-color);
