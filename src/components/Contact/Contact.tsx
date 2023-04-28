@@ -1,6 +1,9 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import gh from "../../assets/gh.svg";
+import lin from "../../assets/linkedin.svg";
+import envelope from "../../assets/envelope.svg";
 
 export const Contact = () => {
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -44,10 +47,23 @@ export const Contact = () => {
               Email:
               <input type="text" name="from_email" />
             </label>
-            <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" />
+            <label htmlFor="message">
+              Message:
+              <textarea id="message" name="message" />
+            </label>
             <button type="submit">Submit</button>
           </form>
+          <div className="contact-socials">
+            <a href="#asd">
+              <img src={gh} alt="" />
+            </a>
+            <a href="#asd">
+              <img src={lin} alt="" />
+            </a>
+            <a href="#asd">
+              <img src={envelope} alt="" />
+            </a>
+          </div>
         </div>
       </div>
       ;
