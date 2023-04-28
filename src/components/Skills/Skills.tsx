@@ -37,7 +37,7 @@ export const Skills = ({ user }: SkillsProps) => {
             </div>
           </div>
           <div className="skills-card">
-            <h2 className="card-title">Languages</h2>
+            <h2 className="card-title">Other</h2>
             <img src="" alt="" />
             <div className="skills-info">
               {user.skills.other.map((o) => (

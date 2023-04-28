@@ -1,0 +1,28 @@
+#contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+#contact h1 {
+  font-size: 48px;
+}
+
+#contact .contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+
+#contact .contact-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#contact .contact-container .contact-form label {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

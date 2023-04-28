@@ -1,5 +1,6 @@
 #skills {
-  min-height: 50vh;
+  min-height: 60vh;
+  background: grey;
 }
 
 #skills h1 {
@@ -8,23 +9,29 @@
 }
 
 #skills .skills-container {
-  padding: 40px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 #skills .skills-container .skills-card {
-  width: 33%;
+  width: 500px;
+  max-width: 500px;
   min-height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
-  border: 1px solid grey;
+  border: 1px solid rgb(100, 58, 58);
   border-radius: 5px;
   padding: 10px 0;
+}
+#skills .skills-container .skills-card h2 {
+  font-size: 36px;
 }
 #skills .skills-container .skills-card img {
   width: 100px;
@@ -32,6 +39,7 @@
 }
 #skills .skills-container .skills-card .skills-info {
   display: flex;
+  justify-content: center;
   gap: 5px;
   flex-wrap: wrap;
 }
